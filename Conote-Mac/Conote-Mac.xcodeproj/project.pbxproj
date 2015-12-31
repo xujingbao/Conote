@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27EE75DC1C351A760060E1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE75DB1C351A760060E1E5 /* AppDelegate.swift */; };
+		27EE75DF1C351A760060E1E5 /* Conote_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27EE75DD1C351A760060E1E5 /* Conote_Mac.xcdatamodeld */; };
+		27EE75E11C351A760060E1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EE75E01C351A760060E1E5 /* Assets.xcassets */; };
+		27EE75E41C351A760060E1E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27EE75E21C351A760060E1E5 /* MainMenu.xib */; };
+		27EE75EF1C351A770060E1E5 /* Conote_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE75EE1C351A770060E1E5 /* Conote_MacTests.swift */; };
+		27EE75FA1C351A770060E1E5 /* Conote_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EE75F91C351A770060E1E5 /* Conote_MacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27EE75EB1C351A770060E1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27EE75D01C351A760060E1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27EE75D71C351A760060E1E5;
+			remoteInfo = "Conote-Mac";
+		};
+		27EE75F61C351A770060E1E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27EE75D01C351A760060E1E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27EE75D71C351A760060E1E5;
+			remoteInfo = "Conote-Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27EE75D81C351A760060E1E5 /* Conote-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conote-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EE75DB1C351A760060E1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27EE75DE1C351A760060E1E5 /* Conote_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conote_Mac.xcdatamodel; sourceTree = "<group>"; };
+		27EE75E01C351A760060E1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27EE75E31C351A760060E1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27EE75E51C351A760060E1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EE75EA1C351A770060E1E5 /* Conote-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conote-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EE75EE1C351A770060E1E5 /* Conote_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conote_MacTests.swift; sourceTree = "<group>"; };
+		27EE75F01C351A770060E1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EE75F51C351A770060E1E5 /* Conote-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conote-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EE75F91C351A770060E1E5 /* Conote_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conote_MacUITests.swift; sourceTree = "<group>"; };
+		27EE75FB1C351A770060E1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EE75D51C351A760060E1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75E71C351A770060E1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75F21C351A770060E1E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EE75CF1C351A760060E1E5 = {
+			isa = PBXGroup;
+			children = (
+				27EE75DA1C351A760060E1E5 /* Conote-Mac */,
+				27EE75ED1C351A770060E1E5 /* Conote-MacTests */,
+				27EE75F81C351A770060E1E5 /* Conote-MacUITests */,
+				27EE75D91C351A760060E1E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27EE75D91C351A760060E1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EE75D81C351A760060E1E5 /* Conote-Mac.app */,
+				27EE75EA1C351A770060E1E5 /* Conote-MacTests.xctest */,
+				27EE75F51C351A770060E1E5 /* Conote-MacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EE75DA1C351A760060E1E5 /* Conote-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				27EE75DB1C351A760060E1E5 /* AppDelegate.swift */,
+				27EE75E01C351A760060E1E5 /* Assets.xcassets */,
+				27EE75E21C351A760060E1E5 /* MainMenu.xib */,
+				27EE75E51C351A760060E1E5 /* Info.plist */,
+				27EE75DD1C351A760060E1E5 /* Conote_Mac.xcdatamodeld */,
+			);
+			path = "Conote-Mac";
+			sourceTree = "<group>";
+		};
+		27EE75ED1C351A770060E1E5 /* Conote-MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				27EE75EE1C351A770060E1E5 /* Conote_MacTests.swift */,
+				27EE75F01C351A770060E1E5 /* Info.plist */,
+			);
+			path = "Conote-MacTests";
+			sourceTree = "<group>";
+		};
+		27EE75F81C351A770060E1E5 /* Conote-MacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27EE75F91C351A770060E1E5 /* Conote_MacUITests.swift */,
+				27EE75FB1C351A770060E1E5 /* Info.plist */,
+			);
+			path = "Conote-MacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27EE75D71C351A760060E1E5 /* Conote-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EE75FE1C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-Mac" */;
+			buildPhases = (
+				27EE75D41C351A760060E1E5 /* Sources */,
+				27EE75D51C351A760060E1E5 /* Frameworks */,
+				27EE75D61C351A760060E1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conote-Mac";
+			productName = "Conote-Mac";
+			productReference = 27EE75D81C351A760060E1E5 /* Conote-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27EE75E91C351A770060E1E5 /* Conote-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EE76011C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-MacTests" */;
+			buildPhases = (
+				27EE75E61C351A770060E1E5 /* Sources */,
+				27EE75E71C351A770060E1E5 /* Frameworks */,
+				27EE75E81C351A770060E1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27EE75EC1C351A770060E1E5 /* PBXTargetDependency */,
+			);
+			name = "Conote-MacTests";
+			productName = "Conote-MacTests";
+			productReference = 27EE75EA1C351A770060E1E5 /* Conote-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27EE75F41C351A770060E1E5 /* Conote-MacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EE76041C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-MacUITests" */;
+			buildPhases = (
+				27EE75F11C351A770060E1E5 /* Sources */,
+				27EE75F21C351A770060E1E5 /* Frameworks */,
+				27EE75F31C351A770060E1E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27EE75F71C351A770060E1E5 /* PBXTargetDependency */,
+			);
+			name = "Conote-MacUITests";
+			productName = "Conote-MacUITests";
+			productReference = 27EE75F51C351A770060E1E5 /* Conote-MacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27EE75D01C351A760060E1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jsunc;
+				TargetAttributes = {
+					27EE75D71C351A760060E1E5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					27EE75E91C351A770060E1E5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 27EE75D71C351A760060E1E5;
+					};
+					27EE75F41C351A770060E1E5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 27EE75D71C351A760060E1E5;
+					};
+				};
+			};
+			buildConfigurationList = 27EE75D31C351A760060E1E5 /* Build configuration list for PBXProject "Conote-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27EE75CF1C351A760060E1E5;
+			productRefGroup = 27EE75D91C351A760060E1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27EE75D71C351A760060E1E5 /* Conote-Mac */,
+				27EE75E91C351A770060E1E5 /* Conote-MacTests */,
+				27EE75F41C351A770060E1E5 /* Conote-MacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EE75D61C351A760060E1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EE75E11C351A760060E1E5 /* Assets.xcassets in Resources */,
+				27EE75E41C351A760060E1E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75E81C351A770060E1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75F31C351A770060E1E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EE75D41C351A760060E1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EE75DC1C351A760060E1E5 /* AppDelegate.swift in Sources */,
+				27EE75DF1C351A760060E1E5 /* Conote_Mac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75E61C351A770060E1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EE75EF1C351A770060E1E5 /* Conote_MacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EE75F11C351A770060E1E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EE75FA1C351A770060E1E5 /* Conote_MacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27EE75EC1C351A770060E1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27EE75D71C351A760060E1E5 /* Conote-Mac */;
+			targetProxy = 27EE75EB1C351A770060E1E5 /* PBXContainerItemProxy */;
+		};
+		27EE75F71C351A770060E1E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27EE75D71C351A760060E1E5 /* Conote-Mac */;
+			targetProxy = 27EE75F61C351A770060E1E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27EE75E21C351A760060E1E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27EE75E31C351A760060E1E5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27EE75FC1C351A770060E1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27EE75FD1C351A770060E1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27EE75FF1C351A770060E1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27EE76001C351A770060E1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27EE76021C351A770060E1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conote-Mac.app/Contents/MacOS/Conote-Mac";
+			};
+			name = Debug;
+		};
+		27EE76031C351A770060E1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-MacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conote-Mac.app/Contents/MacOS/Conote-Mac";
+			};
+			name = Release;
+		};
+		27EE76051C351A770060E1E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Conote-Mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		27EE76061C351A770060E1E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Conote-MacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsunc.conote.Conote-MacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Conote-Mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EE75D31C351A760060E1E5 /* Build configuration list for PBXProject "Conote-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EE75FC1C351A770060E1E5 /* Debug */,
+				27EE75FD1C351A770060E1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EE75FE1C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EE75FF1C351A770060E1E5 /* Debug */,
+				27EE76001C351A770060E1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27EE76011C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EE76021C351A770060E1E5 /* Debug */,
+				27EE76031C351A770060E1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27EE76041C351A770060E1E5 /* Build configuration list for PBXNativeTarget "Conote-MacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EE76051C351A770060E1E5 /* Debug */,
+				27EE76061C351A770060E1E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27EE75DD1C351A760060E1E5 /* Conote_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27EE75DE1C351A760060E1E5 /* Conote_Mac.xcdatamodel */,
+			);
+			currentVersion = 27EE75DE1C351A760060E1E5 /* Conote_Mac.xcdatamodel */;
+			path = Conote_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27EE75D01C351A760060E1E5 /* Project object */;
+}
